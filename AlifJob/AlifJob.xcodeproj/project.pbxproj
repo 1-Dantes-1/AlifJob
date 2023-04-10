@@ -1,0 +1,455 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DAFA83F729E0EA9C00BD6437 /* AlifJobApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFA83F629E0EA9C00BD6437 /* AlifJobApp.swift */; };
+		DAFA83F929E0EA9C00BD6437 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFA83F829E0EA9C00BD6437 /* ContentView.swift */; };
+		DAFA83FB29E0EA9E00BD6437 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAFA83FA29E0EA9E00BD6437 /* Assets.xcassets */; };
+		DAFA83FE29E0EA9E00BD6437 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAFA83FD29E0EA9E00BD6437 /* Preview Assets.xcassets */; };
+		DAFA840529E0EABA00BD6437 /* LogInPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFA840429E0EABA00BD6437 /* LogInPageView.swift */; };
+		DAFA840829E0ED7200BD6437 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = DAFA840729E0ED7200BD6437 /* FirebaseAuth */; };
+		DAFA840A29E0ED7200BD6437 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = DAFA840929E0ED7200BD6437 /* FirebaseFirestore */; };
+		DAFA841229E2A2F100BD6437 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DAFA841129E2A2F100BD6437 /* GoogleService-Info.plist */; };
+		DAFA841429E2A66000BD6437 /* TaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFA841329E2A66000BD6437 /* TaskView.swift */; };
+		DAFA841629E2A6B000BD6437 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFA841529E2A6B000BD6437 /* Task.swift */; };
+		DAFA841829E2A71400BD6437 /* TaskModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFA841729E2A71400BD6437 /* TaskModel.swift */; };
+		DAFA841A29E2B89C00BD6437 /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFA841929E2B89C00BD6437 /* AddView.swift */; };
+		DAFA841C29E2D17800BD6437 /* MainCastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFA841B29E2D17800BD6437 /* MainCastView.swift */; };
+		DAFA842029E2D57400BD6437 /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFA841F29E2D57400BD6437 /* AccountView.swift */; };
+		DAFA842229E2F19900BD6437 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFA842129E2F19900BD6437 /* User.swift */; };
+		DAFA842629E2F20600BD6437 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFA842529E2F20600BD6437 /* UserModel.swift */; };
+		DAFA842829E3396A00BD6437 /* SignUpPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFA842729E3396A00BD6437 /* SignUpPageView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DAFA83F329E0EA9C00BD6437 /* AlifJob.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlifJob.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAFA83F629E0EA9C00BD6437 /* AlifJobApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlifJobApp.swift; sourceTree = "<group>"; };
+		DAFA83F829E0EA9C00BD6437 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DAFA83FA29E0EA9E00BD6437 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DAFA83FD29E0EA9E00BD6437 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DAFA840429E0EABA00BD6437 /* LogInPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInPageView.swift; sourceTree = "<group>"; };
+		DAFA841129E2A2F100BD6437 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		DAFA841329E2A66000BD6437 /* TaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskView.swift; sourceTree = "<group>"; };
+		DAFA841529E2A6B000BD6437 /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
+		DAFA841729E2A71400BD6437 /* TaskModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskModel.swift; sourceTree = "<group>"; };
+		DAFA841929E2B89C00BD6437 /* AddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = "<group>"; };
+		DAFA841B29E2D17800BD6437 /* MainCastView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCastView.swift; sourceTree = "<group>"; };
+		DAFA841F29E2D57400BD6437 /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
+		DAFA842129E2F19900BD6437 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		DAFA842529E2F20600BD6437 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		DAFA842729E3396A00BD6437 /* SignUpPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpPageView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DAFA83F029E0EA9C00BD6437 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAFA840829E0ED7200BD6437 /* FirebaseAuth in Frameworks */,
+				DAFA840A29E0ED7200BD6437 /* FirebaseFirestore in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DAA76AF529E36F63000DB59C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DAFA842529E2F20600BD6437 /* UserModel.swift */,
+				DAFA841729E2A71400BD6437 /* TaskModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DAA76AF629E36F85000DB59C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DAFA841F29E2D57400BD6437 /* AccountView.swift */,
+				DAFA840429E0EABA00BD6437 /* LogInPageView.swift */,
+				DAFA841B29E2D17800BD6437 /* MainCastView.swift */,
+				DAFA842729E3396A00BD6437 /* SignUpPageView.swift */,
+				DAFA841929E2B89C00BD6437 /* AddView.swift */,
+				DAFA841329E2A66000BD6437 /* TaskView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		DAA76AF729E36F99000DB59C /* Alif */ = {
+			isa = PBXGroup;
+			children = (
+				DAFA83F629E0EA9C00BD6437 /* AlifJobApp.swift */,
+				DAFA83F829E0EA9C00BD6437 /* ContentView.swift */,
+			);
+			path = Alif;
+			sourceTree = "<group>";
+		};
+		DAA76AF829E36FC2000DB59C /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				DAFA842129E2F19900BD6437 /* User.swift */,
+				DAFA841529E2A6B000BD6437 /* Task.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		DAFA83EA29E0EA9C00BD6437 = {
+			isa = PBXGroup;
+			children = (
+				DAFA83F529E0EA9C00BD6437 /* AlifJob */,
+				DAFA83F429E0EA9C00BD6437 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DAFA83F429E0EA9C00BD6437 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DAFA83F329E0EA9C00BD6437 /* AlifJob.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DAFA83F529E0EA9C00BD6437 /* AlifJob */ = {
+			isa = PBXGroup;
+			children = (
+				DAA76AF529E36F63000DB59C /* Model */,
+				DAA76AF729E36F99000DB59C /* Alif */,
+				DAA76AF829E36FC2000DB59C /* Data */,
+				DAA76AF629E36F85000DB59C /* Views */,
+				DAFA83FC29E0EA9E00BD6437 /* Preview Content */,
+			);
+			path = AlifJob;
+			sourceTree = "<group>";
+		};
+		DAFA83FC29E0EA9E00BD6437 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DAFA83FA29E0EA9E00BD6437 /* Assets.xcassets */,
+				DAFA841129E2A2F100BD6437 /* GoogleService-Info.plist */,
+				DAFA83FD29E0EA9E00BD6437 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DAFA83F229E0EA9C00BD6437 /* AlifJob */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAFA840129E0EA9E00BD6437 /* Build configuration list for PBXNativeTarget "AlifJob" */;
+			buildPhases = (
+				DAFA83EF29E0EA9C00BD6437 /* Sources */,
+				DAFA83F029E0EA9C00BD6437 /* Frameworks */,
+				DAFA83F129E0EA9C00BD6437 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AlifJob;
+			packageProductDependencies = (
+				DAFA840729E0ED7200BD6437 /* FirebaseAuth */,
+				DAFA840929E0ED7200BD6437 /* FirebaseFirestore */,
+			);
+			productName = AlifJob;
+			productReference = DAFA83F329E0EA9C00BD6437 /* AlifJob.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DAFA83EB29E0EA9C00BD6437 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					DAFA83F229E0EA9C00BD6437 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = DAFA83EE29E0EA9C00BD6437 /* Build configuration list for PBXProject "AlifJob" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DAFA83EA29E0EA9C00BD6437;
+			packageReferences = (
+				DAFA840629E0ED7200BD6437 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			productRefGroup = DAFA83F429E0EA9C00BD6437 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DAFA83F229E0EA9C00BD6437 /* AlifJob */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DAFA83F129E0EA9C00BD6437 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAFA83FE29E0EA9E00BD6437 /* Preview Assets.xcassets in Resources */,
+				DAFA841229E2A2F100BD6437 /* GoogleService-Info.plist in Resources */,
+				DAFA83FB29E0EA9E00BD6437 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DAFA83EF29E0EA9C00BD6437 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAFA841C29E2D17800BD6437 /* MainCastView.swift in Sources */,
+				DAFA841A29E2B89C00BD6437 /* AddView.swift in Sources */,
+				DAFA841829E2A71400BD6437 /* TaskModel.swift in Sources */,
+				DAFA83F929E0EA9C00BD6437 /* ContentView.swift in Sources */,
+				DAFA840529E0EABA00BD6437 /* LogInPageView.swift in Sources */,
+				DAFA841629E2A6B000BD6437 /* Task.swift in Sources */,
+				DAFA842029E2D57400BD6437 /* AccountView.swift in Sources */,
+				DAFA83F729E0EA9C00BD6437 /* AlifJobApp.swift in Sources */,
+				DAFA842229E2F19900BD6437 /* User.swift in Sources */,
+				DAFA842829E3396A00BD6437 /* SignUpPageView.swift in Sources */,
+				DAFA841429E2A66000BD6437 /* TaskView.swift in Sources */,
+				DAFA842629E2F20600BD6437 /* UserModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		DAFA83FF29E0EA9E00BD6437 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DAFA840029E0EA9E00BD6437 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DAFA840229E0EA9E00BD6437 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AlifJob/Preview Content\"";
+				DEVELOPMENT_TEAM = 93PDJ74WQB;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Dantes.AlifJob;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DAFA840329E0EA9E00BD6437 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AlifJob/Preview Content\"";
+				DEVELOPMENT_TEAM = 93PDJ74WQB;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Dantes.AlifJob;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DAFA83EE29E0EA9C00BD6437 /* Build configuration list for PBXProject "AlifJob" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAFA83FF29E0EA9E00BD6437 /* Debug */,
+				DAFA840029E0EA9E00BD6437 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAFA840129E0EA9E00BD6437 /* Build configuration list for PBXNativeTarget "AlifJob" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAFA840229E0EA9E00BD6437 /* Debug */,
+				DAFA840329E0EA9E00BD6437 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		DAFA840629E0ED7200BD6437 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		DAFA840729E0ED7200BD6437 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DAFA840629E0ED7200BD6437 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		DAFA840929E0ED7200BD6437 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DAFA840629E0ED7200BD6437 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = DAFA83EB29E0EA9C00BD6437 /* Project object */;
+}
